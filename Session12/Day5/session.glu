@@ -1,0 +1,1481 @@
+{
+  "Ascending": {
+    "_type": "glue.core.subset_group.SubsetGroup",
+    "label": "Ascending",
+    "state": "RoiSubsetState",
+    "style": {
+      "_type": "glue.core.visual.VisualAttributes",
+      "alpha": 0.93,
+      "color": "#e31a1c",
+      "linestyle": "solid",
+      "linewidth": 2.5,
+      "marker": "o",
+      "markersize": 7,
+      "preferred_cmap": null
+    },
+    "subsets": [
+      "Ascending_1",
+      "Ascending_0"
+    ]
+  },
+  "Ascending_0": {
+    "_type": "glue.core.subset_group.GroupedSubset",
+    "group": "Ascending",
+    "style": {
+      "_type": "glue.core.visual.VisualAttributes",
+      "alpha": 0.93,
+      "color": "#e31a1c",
+      "linestyle": "solid",
+      "linewidth": 2.5,
+      "marker": "o",
+      "markersize": 7,
+      "preferred_cmap": null
+    }
+  },
+  "Ascending_1": {
+    "_type": "glue.core.subset_group.GroupedSubset",
+    "group": "Ascending",
+    "style": {
+      "_type": "glue.core.visual.VisualAttributes",
+      "alpha": 0.93,
+      "color": "#e31a1c",
+      "linestyle": "solid",
+      "linewidth": 2.5,
+      "marker": "o",
+      "markersize": 7,
+      "preferred_cmap": null
+    }
+  },
+  "CallbackList": {
+    "_type": "echo.containers.CallbackList",
+    "values": [
+      "ImageLayerState",
+      "ImageSubsetLayerState",
+      "ImageSubsetLayerState_0",
+      "ScatterLayerState",
+      "ScatterLayerState_0",
+      "ScatterLayerState_1",
+      "ScatterLayerState_2",
+      "ImageSubsetLayerState_1"
+    ]
+  },
+  "CallbackList_0": {
+    "_type": "echo.containers.CallbackList",
+    "values": [
+      "ScatterLayerState_3",
+      "ScatterLayerState_4",
+      "ScatterLayerState_5",
+      "ScatterLayerState_6"
+    ]
+  },
+  "CallbackList_1": {
+    "_type": "echo.containers.CallbackList",
+    "values": [
+      "ScatterLayerState_7",
+      "ScatterLayerState_8",
+      "ScatterLayerState_9",
+      "ScatterLayerState_10"
+    ]
+  },
+  "Component": {
+    "_type": "glue.core.component.Component",
+    "log": "LoadLog",
+    "log_item": 1
+  },
+  "ComponentLink": {
+    "_type": "glue.core.component_link.ComponentLink",
+    "frm": [
+      "latitude"
+    ],
+    "inverse": {
+      "_type": "types.FunctionType",
+      "function": "glue.core.link_helpers.identity"
+    },
+    "to": [
+      "Lat"
+    ],
+    "using": {
+      "_type": "types.FunctionType",
+      "function": "glue.core.link_helpers.identity"
+    }
+  },
+  "ComponentLink_0": {
+    "_type": "glue.core.component_link.ComponentLink",
+    "frm": [
+      "longitude"
+    ],
+    "inverse": {
+      "_type": "types.FunctionType",
+      "function": "glue.core.link_helpers.identity"
+    },
+    "to": [
+      "Lon"
+    ],
+    "using": {
+      "_type": "types.FunctionType",
+      "function": "glue.core.link_helpers.identity"
+    }
+  },
+  "Component_0": {
+    "_type": "glue.core.component.Component",
+    "log": "LoadLog",
+    "log_item": 2
+  },
+  "Component_1": {
+    "_type": "glue.core.component.Component",
+    "log": "LoadLog",
+    "log_item": 3
+  },
+  "Component_2": {
+    "_type": "glue.core.component.Component",
+    "log": "LoadLog",
+    "log_item": 4
+  },
+  "Component_3": {
+    "_type": "glue.core.component.Component",
+    "log": "LoadLog",
+    "log_item": 5
+  },
+  "Component_4": {
+    "_type": "glue.core.component.Component",
+    "log": "LoadLog",
+    "log_item": 6
+  },
+  "Component_5": {
+    "_type": "glue.core.component.Component",
+    "log": "LoadLog",
+    "log_item": 7
+  },
+  "Component_6": {
+    "_type": "glue.core.component.Component",
+    "log": "LoadLog",
+    "log_item": 8
+  },
+  "Component_7": {
+    "_type": "glue.core.component.Component",
+    "log": "LoadLog",
+    "log_item": 9
+  },
+  "Component_8": {
+    "_type": "glue.core.component.Component",
+    "log": "LoadLog",
+    "log_item": 10
+  },
+  "Component_9": {
+    "_type": "glue.core.component.Component",
+    "log": "LoadLog_0",
+    "log_item": 4
+  },
+  "CoordinateComponent": {
+    "_type": "glue.core.component.CoordinateComponent",
+    "axis": 0,
+    "world": false
+  },
+  "CoordinateComponent_0": {
+    "_type": "glue.core.component.CoordinateComponent",
+    "axis": 0,
+    "world": false
+  },
+  "CoordinateComponent_1": {
+    "_type": "glue.core.component.CoordinateComponent",
+    "axis": 1,
+    "world": false
+  },
+  "CoordinateComponent_2": {
+    "_type": "glue.core.component.CoordinateComponent",
+    "axis": 0,
+    "world": true
+  },
+  "CoordinateComponent_3": {
+    "_type": "glue.core.component.CoordinateComponent",
+    "axis": 1,
+    "world": true
+  },
+  "DataCollection": {
+    "_protocol": 4,
+    "_type": "glue.core.data_collection.DataCollection",
+    "cids": [
+      "Pixel Axis 0 [x]",
+      "timestamp",
+      "longitude",
+      "latitude",
+      "altitude",
+      "ground_speed",
+      "air_speed",
+      "heading",
+      "vertical_rate",
+      "date",
+      "time",
+      "Pixel Axis 0 [y]",
+      "Pixel Axis 1 [x]",
+      "Lat",
+      "Lon",
+      "PRIMARY"
+    ],
+    "components": [
+      "CoordinateComponent",
+      "Component",
+      "Component_0",
+      "Component_1",
+      "Component_2",
+      "Component_3",
+      "Component_4",
+      "Component_5",
+      "Component_6",
+      "Component_7",
+      "Component_8",
+      "CoordinateComponent_0",
+      "CoordinateComponent_1",
+      "CoordinateComponent_2",
+      "CoordinateComponent_3",
+      "Component_9"
+    ],
+    "data": [
+      "airplane_flight_data",
+      "Satellite_Image"
+    ],
+    "groups": [
+      "Ascending",
+      "Descending",
+      "PassingOver"
+    ],
+    "links": [
+      "ComponentLink",
+      "ComponentLink_0"
+    ],
+    "subset_group_count": 3
+  },
+  "Descending": {
+    "_type": "glue.core.subset_group.SubsetGroup",
+    "label": "Descending",
+    "state": "RoiSubsetState_0",
+    "style": {
+      "_type": "glue.core.visual.VisualAttributes",
+      "alpha": 0.99,
+      "color": "#33a02c",
+      "linestyle": "solid",
+      "linewidth": 2.5,
+      "marker": "o",
+      "markersize": 7,
+      "preferred_cmap": null
+    },
+    "subsets": [
+      "Descending_1",
+      "Descending_0"
+    ]
+  },
+  "Descending_0": {
+    "_type": "glue.core.subset_group.GroupedSubset",
+    "group": "Descending",
+    "style": {
+      "_type": "glue.core.visual.VisualAttributes",
+      "alpha": 0.99,
+      "color": "#33a02c",
+      "linestyle": "solid",
+      "linewidth": 2.5,
+      "marker": "o",
+      "markersize": 7,
+      "preferred_cmap": null
+    }
+  },
+  "Descending_1": {
+    "_type": "glue.core.subset_group.GroupedSubset",
+    "group": "Descending",
+    "style": {
+      "_type": "glue.core.visual.VisualAttributes",
+      "alpha": 0.99,
+      "color": "#33a02c",
+      "linestyle": "solid",
+      "linewidth": 2.5,
+      "marker": "o",
+      "markersize": 7,
+      "preferred_cmap": null
+    }
+  },
+  "ImageLayerState": {
+    "_type": "glue.viewers.image.state.ImageLayerState",
+    "values": {
+      "alpha": 0.8,
+      "attribute": "PRIMARY",
+      "bias": 0.5,
+      "cmap": "LinearSegmentedColormap",
+      "color": "st__#595959",
+      "contrast": 1.0,
+      "global_sync": false,
+      "layer": "Satellite_Image",
+      "percentile": 100,
+      "stretch": "st__linear",
+      "v_max": 181,
+      "v_min": 0,
+      "visible": true,
+      "zorder": 1
+    }
+  },
+  "ImageSubsetLayerState": {
+    "_type": "glue.viewers.image.state.ImageSubsetLayerState",
+    "values": {
+      "alpha": 0.93,
+      "color": "st__#e31a1c",
+      "layer": "Ascending_0",
+      "visible": true,
+      "zorder": 2
+    }
+  },
+  "ImageSubsetLayerState_0": {
+    "_type": "glue.viewers.image.state.ImageSubsetLayerState",
+    "values": {
+      "alpha": 0.99,
+      "color": "st__#33a02c",
+      "layer": "Descending_0",
+      "visible": true,
+      "zorder": 3
+    }
+  },
+  "ImageSubsetLayerState_1": {
+    "_type": "glue.viewers.image.state.ImageSubsetLayerState",
+    "values": {
+      "alpha": 1.0,
+      "color": "st__#1f78b4",
+      "layer": "PassingOver_0",
+      "visible": true,
+      "zorder": 8
+    }
+  },
+  "ImageViewer": {
+    "_protocol": 1,
+    "_type": "glue.viewers.image.qt.data_viewer.ImageViewer",
+    "layers": [
+      {
+        "_type": "glue.viewers.image.layer_artist.ImageLayerArtist",
+        "state": "ImageLayerState"
+      },
+      {
+        "_type": "glue.viewers.image.layer_artist.ImageSubsetLayerArtist",
+        "state": "ImageSubsetLayerState"
+      },
+      {
+        "_type": "glue.viewers.image.layer_artist.ImageSubsetLayerArtist",
+        "state": "ImageSubsetLayerState_0"
+      },
+      {
+        "_type": "glue.viewers.scatter.layer_artist.ScatterLayerArtist",
+        "state": "ScatterLayerState"
+      },
+      {
+        "_type": "glue.viewers.scatter.layer_artist.ScatterLayerArtist",
+        "state": "ScatterLayerState_0"
+      },
+      {
+        "_type": "glue.viewers.scatter.layer_artist.ScatterLayerArtist",
+        "state": "ScatterLayerState_1"
+      },
+      {
+        "_type": "glue.viewers.scatter.layer_artist.ScatterLayerArtist",
+        "state": "ScatterLayerState_2"
+      },
+      {
+        "_type": "glue.viewers.image.layer_artist.ImageSubsetLayerArtist",
+        "state": "ImageSubsetLayerState_1"
+      }
+    ],
+    "pos": [
+      0,
+      0
+    ],
+    "session": "Session",
+    "size": [
+      662,
+      523
+    ],
+    "state": {
+      "values": {
+        "aspect": "st__equal",
+        "color_mode": "st__Colormaps",
+        "dpi": 71.30820648960312,
+        "layers": "CallbackList",
+        "reference_data": "Satellite_Image",
+        "show_axes": true,
+        "slices": [
+          0,
+          0
+        ],
+        "x_att": "Pixel Axis 1 [x]",
+        "x_att_world": "Lon",
+        "x_axislabel": "st__Lon",
+        "x_axislabel_size": 10,
+        "x_axislabel_weight": "st__normal",
+        "x_log": false,
+        "x_max": 1542.3412299740398,
+        "x_min": 1226.0540938099189,
+        "x_ticklabel_size": 8,
+        "y_att": "Pixel Axis 0 [y]",
+        "y_att_world": "Lat",
+        "y_axislabel": "st__Lat",
+        "y_axislabel_size": 10,
+        "y_axislabel_weight": "st__normal",
+        "y_log": false,
+        "y_max": 1465.864292796806,
+        "y_min": 1249.5841368293404,
+        "y_ticklabel_size": 8
+      }
+    }
+  },
+  "Lat": {
+    "_type": "glue.core.component_id.ComponentID",
+    "label": "Lat"
+  },
+  "LinearSegmentedColormap": {
+    "_type": "matplotlib.colors.LinearSegmentedColormap",
+    "cmap": "gray"
+  },
+  "LoadLog": {
+    "_protocol": 2,
+    "_type": "glue.core.data_factories.helpers.LoadLog",
+    "factory": {
+      "_type": "types.FunctionType",
+      "function": "glue.core.data_factories.helpers.auto_data"
+    },
+    "force_coords": false,
+    "kwargs": [
+      []
+    ],
+    "path": "glue_airplane_demo_2021/airplane_flight_data.dat"
+  },
+  "LoadLog_0": {
+    "_protocol": 2,
+    "_type": "glue.core.data_factories.helpers.LoadLog",
+    "factory": {
+      "_type": "types.FunctionType",
+      "function": "glue.core.data_factories.helpers.auto_data"
+    },
+    "force_coords": true,
+    "kwargs": [
+      []
+    ],
+    "path": "glue_airplane_demo_2021/Satellite_Image.fits"
+  },
+  "Lon": {
+    "_type": "glue.core.component_id.ComponentID",
+    "label": "Lon"
+  },
+  "PRIMARY": {
+    "_type": "glue.core.component_id.ComponentID",
+    "label": "PRIMARY"
+  },
+  "PassingOver": {
+    "_type": "glue.core.subset_group.SubsetGroup",
+    "label": "PassingOver",
+    "state": "RoiSubsetState3d",
+    "style": {
+      "_type": "glue.core.visual.VisualAttributes",
+      "alpha": 1.0,
+      "color": "#1f78b4",
+      "linestyle": "solid",
+      "linewidth": 2.5,
+      "marker": "o",
+      "markersize": 7,
+      "preferred_cmap": null
+    },
+    "subsets": [
+      "PassingOver_1",
+      "PassingOver_0"
+    ]
+  },
+  "PassingOver_0": {
+    "_type": "glue.core.subset_group.GroupedSubset",
+    "group": "PassingOver",
+    "style": {
+      "_type": "glue.core.visual.VisualAttributes",
+      "alpha": 1.0,
+      "color": "#1f78b4",
+      "linestyle": "solid",
+      "linewidth": 2.5,
+      "marker": "o",
+      "markersize": 7,
+      "preferred_cmap": null
+    }
+  },
+  "PassingOver_1": {
+    "_type": "glue.core.subset_group.GroupedSubset",
+    "group": "PassingOver",
+    "style": {
+      "_type": "glue.core.visual.VisualAttributes",
+      "alpha": 1.0,
+      "color": "#1f78b4",
+      "linestyle": "solid",
+      "linewidth": 2.5,
+      "marker": "o",
+      "markersize": 7,
+      "preferred_cmap": null
+    }
+  },
+  "Pixel Axis 0 [x]": {
+    "_type": "glue.core.component_id.PixelComponentID",
+    "axis": 0,
+    "label": "Pixel Axis 0 [x]"
+  },
+  "Pixel Axis 0 [y]": {
+    "_type": "glue.core.component_id.PixelComponentID",
+    "axis": 0,
+    "label": "Pixel Axis 0 [y]"
+  },
+  "Pixel Axis 1 [x]": {
+    "_type": "glue.core.component_id.PixelComponentID",
+    "axis": 1,
+    "label": "Pixel Axis 1 [x]"
+  },
+  "Projected3dROI": {
+    "_type": "glue.core.roi.Projected3dROI",
+    "projection_matrix": [
+      [
+        5.424796912480926e-15,
+        -156.77684780614237,
+        0.0,
+        6951.139481066548
+      ],
+      [
+        0.0,
+        0.0,
+        -16.025627143890524,
+        307.84605742532665
+      ],
+      [
+        7.557207922928856e-07,
+        8.1888238162082e-23,
+        0.0,
+        5.7824989172853586e-05
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "roi_2d": "RectangularROI_1"
+  },
+  "RectangularROI": {
+    "_type": "glue.core.roi.RectangularROI",
+    "xmax": 1474871904.207675,
+    "xmin": 1473715082.8997366,
+    "ymax": 5955.097164461249,
+    "ymin": 268.1805671077509
+  },
+  "RectangularROI_0": {
+    "_type": "glue.core.roi.RectangularROI",
+    "xmax": 1474875352.2592633,
+    "xmin": 1473713358.8739424,
+    "ymax": -119.10049149338283,
+    "ymin": -3808.462155009451
+  },
+  "RectangularROI_1": {
+    "_type": "glue.core.roi.RectangularROI",
+    "xmax": 420,
+    "xmin": 182,
+    "ymax": 147,
+    "ymin": 83
+  },
+  "RoiSubsetState": {
+    "_type": "glue.core.subset.RoiSubsetState",
+    "pretransform": null,
+    "roi": "RectangularROI",
+    "xatt": "timestamp",
+    "yatt": "vertical_rate"
+  },
+  "RoiSubsetState3d": {
+    "_type": "glue.core.subset.RoiSubsetState3d",
+    "pretransform": null,
+    "roi": "Projected3dROI",
+    "xatt": "longitude",
+    "yatt": "latitude",
+    "zatt": "altitude"
+  },
+  "RoiSubsetState_0": {
+    "_type": "glue.core.subset.RoiSubsetState",
+    "pretransform": null,
+    "roi": "RectangularROI_0",
+    "xatt": "timestamp",
+    "yatt": "vertical_rate"
+  },
+  "Satellite_Image": {
+    "_key_joins": [],
+    "_protocol": 5,
+    "_type": "glue.core.data.Data",
+    "components": [
+      [
+        "Pixel Axis 0 [y]",
+        "CoordinateComponent_0"
+      ],
+      [
+        "Pixel Axis 1 [x]",
+        "CoordinateComponent_1"
+      ],
+      [
+        "Lat",
+        "CoordinateComponent_2"
+      ],
+      [
+        "Lon",
+        "CoordinateComponent_3"
+      ],
+      [
+        "PRIMARY",
+        "Component_9"
+      ]
+    ],
+    "coords": "WCS",
+    "label": "Satellite_Image",
+    "meta": {
+      "_type": "collections.OrderedDict",
+      "contents": {
+        "st__BITPIX": 8,
+        "st__CDELT1": 0.000370600583886922,
+        "st__CDELT2": 0.000277672594343703,
+        "st__CRPIX1": 1,
+        "st__CRPIX2": 1,
+        "st__CRVAL1": -71.52400431278558,
+        "st__CRVAL2": 41.98249677969851,
+        "st__CTYPE1": "st__Lon",
+        "st__CTYPE2": "st__Lat",
+        "st__EXTEND": true,
+        "st__NAXIS": 2,
+        "st__NAXIS1": 2800,
+        "st__NAXIS2": 2286,
+        "st__SIMPLE": true
+      }
+    },
+    "primary_owner": [
+      "Pixel Axis 0 [y]",
+      "Pixel Axis 1 [x]",
+      "Lat",
+      "Lon",
+      "PRIMARY"
+    ],
+    "style": {
+      "_type": "glue.core.visual.VisualAttributes",
+      "alpha": 0.8,
+      "color": "#595959",
+      "linestyle": "solid",
+      "linewidth": 1,
+      "marker": "o",
+      "markersize": 3,
+      "preferred_cmap": null
+    },
+    "subsets": [
+      "Ascending_0",
+      "Descending_0",
+      "PassingOver_0"
+    ],
+    "uuid": "67dfbc84-ea71-4827-a032-a01aba50910e"
+  },
+  "ScatterLayerState": {
+    "_type": "glue.viewers.scatter.state.ScatterLayerState",
+    "values": {
+      "alpha": 0.8,
+      "cmap": "LinearSegmentedColormap",
+      "cmap_att": "timestamp",
+      "cmap_mode": "st__Fixed",
+      "cmap_vmax": 1474849938.842,
+      "cmap_vmin": 1473740496.317,
+      "color": "st__#595959",
+      "density_contrast": 1.0,
+      "density_map": true,
+      "fill": true,
+      "layer": "airplane_flight_data",
+      "line_visible": false,
+      "linestyle": "st__solid",
+      "linewidth": 1,
+      "markers_visible": true,
+      "points_mode": "st__auto",
+      "size": 3,
+      "size_att": "timestamp",
+      "size_mode": "st__Fixed",
+      "size_scaling": 1,
+      "size_vmax": 1474849938.842,
+      "size_vmin": 1473740496.317,
+      "stretch": "st__log",
+      "vector_arrowhead": false,
+      "vector_mode": "st__Cartesian",
+      "vector_origin": "st__middle",
+      "vector_scaling": 0.9770099572992254,
+      "vector_visible": false,
+      "visible": true,
+      "vx_att": "timestamp",
+      "vy_att": "timestamp",
+      "xerr_att": "timestamp",
+      "xerr_visible": false,
+      "yerr_att": "timestamp",
+      "yerr_visible": false,
+      "zorder": 4
+    }
+  },
+  "ScatterLayerState_0": {
+    "_type": "glue.viewers.scatter.state.ScatterLayerState",
+    "values": {
+      "alpha": 0.93,
+      "cmap": "LinearSegmentedColormap",
+      "cmap_att": "timestamp",
+      "cmap_mode": "st__Fixed",
+      "cmap_vmax": 1474849938.842,
+      "cmap_vmin": 1473740496.317,
+      "color": "st__#e31a1c",
+      "density_contrast": 1.0,
+      "density_map": true,
+      "fill": true,
+      "layer": "Ascending_1",
+      "line_visible": false,
+      "linestyle": "st__solid",
+      "linewidth": 1,
+      "markers_visible": true,
+      "points_mode": "st__auto",
+      "size": 7,
+      "size_att": "timestamp",
+      "size_mode": "st__Fixed",
+      "size_scaling": 1,
+      "size_vmax": 1474849938.842,
+      "size_vmin": 1473740496.317,
+      "stretch": "st__log",
+      "vector_arrowhead": false,
+      "vector_mode": "st__Cartesian",
+      "vector_origin": "st__middle",
+      "vector_scaling": 0.9770099572992254,
+      "vector_visible": false,
+      "visible": true,
+      "vx_att": "timestamp",
+      "vy_att": "timestamp",
+      "xerr_att": "timestamp",
+      "xerr_visible": false,
+      "yerr_att": "timestamp",
+      "yerr_visible": false,
+      "zorder": 5
+    }
+  },
+  "ScatterLayerState_1": {
+    "_type": "glue.viewers.scatter.state.ScatterLayerState",
+    "values": {
+      "alpha": 0.99,
+      "cmap": "LinearSegmentedColormap",
+      "cmap_att": "timestamp",
+      "cmap_mode": "st__Fixed",
+      "cmap_vmax": 1474849938.842,
+      "cmap_vmin": 1473740496.317,
+      "color": "st__#33a02c",
+      "density_contrast": 1.0,
+      "density_map": true,
+      "fill": true,
+      "layer": "Descending_1",
+      "line_visible": false,
+      "linestyle": "st__solid",
+      "linewidth": 1,
+      "markers_visible": true,
+      "points_mode": "st__auto",
+      "size": 7,
+      "size_att": "timestamp",
+      "size_mode": "st__Fixed",
+      "size_scaling": 1,
+      "size_vmax": 1474849938.842,
+      "size_vmin": 1473740496.317,
+      "stretch": "st__log",
+      "vector_arrowhead": false,
+      "vector_mode": "st__Cartesian",
+      "vector_origin": "st__middle",
+      "vector_scaling": 0.9770099572992254,
+      "vector_visible": false,
+      "visible": true,
+      "vx_att": "timestamp",
+      "vy_att": "timestamp",
+      "xerr_att": "timestamp",
+      "xerr_visible": false,
+      "yerr_att": "timestamp",
+      "yerr_visible": false,
+      "zorder": 6
+    }
+  },
+  "ScatterLayerState_10": {
+    "_type": "glue_vispy_viewers.scatter.layer_state.ScatterLayerState",
+    "values": {
+      "alpha": 1.0,
+      "cmap": "LinearSegmentedColormap",
+      "cmap_attribute": "timestamp",
+      "cmap_limits_cache": "dict_4",
+      "cmap_vmax": 1474849938.842,
+      "cmap_vmin": 1473740496.317,
+      "color": "st__#1f78b4",
+      "color_mode": "st__Fixed",
+      "layer": "PassingOver_1",
+      "size": 7,
+      "size_attribute": "timestamp",
+      "size_limits_cache": "dict_5",
+      "size_mode": "st__Fixed",
+      "size_scaling": 0.14454397707459277,
+      "size_vmax": 1474849938.842,
+      "size_vmin": 1473740496.317,
+      "vector_arrowhead": null,
+      "vector_origin": "st__middle",
+      "vector_scaling": 0.9770099572992254,
+      "vector_visible": false,
+      "visible": true,
+      "vx_attribute": "timestamp",
+      "vy_attribute": "timestamp",
+      "vz_attribute": "timestamp",
+      "xerr_attribute": "timestamp",
+      "xerr_visible": false,
+      "yerr_attribute": "timestamp",
+      "yerr_visible": false,
+      "zerr_attribute": "timestamp",
+      "zerr_visible": false,
+      "zorder": 4
+    }
+  },
+  "ScatterLayerState_2": {
+    "_type": "glue.viewers.scatter.state.ScatterLayerState",
+    "values": {
+      "alpha": 1.0,
+      "cmap": "LinearSegmentedColormap",
+      "cmap_att": "timestamp",
+      "cmap_mode": "st__Fixed",
+      "cmap_vmax": 1474849938.842,
+      "cmap_vmin": 1473740496.317,
+      "color": "st__#1f78b4",
+      "density_contrast": 1.0,
+      "density_map": true,
+      "fill": true,
+      "layer": "PassingOver_1",
+      "line_visible": false,
+      "linestyle": "st__solid",
+      "linewidth": 1,
+      "markers_visible": true,
+      "points_mode": "st__auto",
+      "size": 7,
+      "size_att": "timestamp",
+      "size_mode": "st__Fixed",
+      "size_scaling": 1,
+      "size_vmax": 1474849938.842,
+      "size_vmin": 1473740496.317,
+      "stretch": "st__log",
+      "vector_arrowhead": false,
+      "vector_mode": "st__Cartesian",
+      "vector_origin": "st__middle",
+      "vector_scaling": 0.9770099572992254,
+      "vector_visible": false,
+      "visible": true,
+      "vx_att": "timestamp",
+      "vy_att": "timestamp",
+      "xerr_att": "timestamp",
+      "xerr_visible": false,
+      "yerr_att": "timestamp",
+      "yerr_visible": false,
+      "zorder": 7
+    }
+  },
+  "ScatterLayerState_3": {
+    "_type": "glue.viewers.scatter.state.ScatterLayerState",
+    "values": {
+      "alpha": 0.8,
+      "cmap": "LinearSegmentedColormap",
+      "cmap_att": "timestamp",
+      "cmap_mode": "st__Fixed",
+      "cmap_vmax": 1474849938.842,
+      "cmap_vmin": 1473740496.317,
+      "color": "st__#595959",
+      "density_contrast": 1.0,
+      "density_map": true,
+      "fill": true,
+      "layer": "airplane_flight_data",
+      "line_visible": false,
+      "linestyle": "st__solid",
+      "linewidth": 1,
+      "markers_visible": true,
+      "points_mode": "st__auto",
+      "size": 3,
+      "size_att": "timestamp",
+      "size_mode": "st__Fixed",
+      "size_scaling": 1,
+      "size_vmax": 1474849938.842,
+      "size_vmin": 1473740496.317,
+      "stretch": "st__log",
+      "vector_arrowhead": false,
+      "vector_mode": "st__Cartesian",
+      "vector_origin": "st__middle",
+      "vector_scaling": 0.9770099572992254,
+      "vector_visible": false,
+      "visible": true,
+      "vx_att": "timestamp",
+      "vy_att": "timestamp",
+      "xerr_att": "timestamp",
+      "xerr_visible": false,
+      "yerr_att": "timestamp",
+      "yerr_visible": false,
+      "zorder": 1
+    }
+  },
+  "ScatterLayerState_4": {
+    "_type": "glue.viewers.scatter.state.ScatterLayerState",
+    "values": {
+      "alpha": 0.93,
+      "cmap": "LinearSegmentedColormap",
+      "cmap_att": "timestamp",
+      "cmap_mode": "st__Fixed",
+      "cmap_vmax": 1474849938.842,
+      "cmap_vmin": 1473740496.317,
+      "color": "st__#e31a1c",
+      "density_contrast": 1.0,
+      "density_map": true,
+      "fill": true,
+      "layer": "Ascending_1",
+      "line_visible": false,
+      "linestyle": "st__solid",
+      "linewidth": 1,
+      "markers_visible": true,
+      "points_mode": "st__auto",
+      "size": 7,
+      "size_att": "timestamp",
+      "size_mode": "st__Fixed",
+      "size_scaling": 1,
+      "size_vmax": 1474849938.842,
+      "size_vmin": 1473740496.317,
+      "stretch": "st__log",
+      "vector_arrowhead": false,
+      "vector_mode": "st__Cartesian",
+      "vector_origin": "st__middle",
+      "vector_scaling": 0.9770099572992254,
+      "vector_visible": false,
+      "visible": true,
+      "vx_att": "timestamp",
+      "vy_att": "timestamp",
+      "xerr_att": "timestamp",
+      "xerr_visible": false,
+      "yerr_att": "timestamp",
+      "yerr_visible": false,
+      "zorder": 2
+    }
+  },
+  "ScatterLayerState_5": {
+    "_type": "glue.viewers.scatter.state.ScatterLayerState",
+    "values": {
+      "alpha": 0.99,
+      "cmap": "LinearSegmentedColormap",
+      "cmap_att": "timestamp",
+      "cmap_mode": "st__Fixed",
+      "cmap_vmax": 1474849938.842,
+      "cmap_vmin": 1473740496.317,
+      "color": "st__#33a02c",
+      "density_contrast": 1.0,
+      "density_map": true,
+      "fill": true,
+      "layer": "Descending_1",
+      "line_visible": false,
+      "linestyle": "st__solid",
+      "linewidth": 1,
+      "markers_visible": true,
+      "points_mode": "st__auto",
+      "size": 7,
+      "size_att": "timestamp",
+      "size_mode": "st__Fixed",
+      "size_scaling": 1,
+      "size_vmax": 1474849938.842,
+      "size_vmin": 1473740496.317,
+      "stretch": "st__log",
+      "vector_arrowhead": false,
+      "vector_mode": "st__Cartesian",
+      "vector_origin": "st__middle",
+      "vector_scaling": 0.9770099572992254,
+      "vector_visible": false,
+      "visible": true,
+      "vx_att": "timestamp",
+      "vy_att": "timestamp",
+      "xerr_att": "timestamp",
+      "xerr_visible": false,
+      "yerr_att": "timestamp",
+      "yerr_visible": false,
+      "zorder": 3
+    }
+  },
+  "ScatterLayerState_6": {
+    "_type": "glue.viewers.scatter.state.ScatterLayerState",
+    "values": {
+      "alpha": 1.0,
+      "cmap": "LinearSegmentedColormap",
+      "cmap_att": "timestamp",
+      "cmap_mode": "st__Fixed",
+      "cmap_vmax": 1474849938.842,
+      "cmap_vmin": 1473740496.317,
+      "color": "st__#1f78b4",
+      "density_contrast": 1.0,
+      "density_map": true,
+      "fill": true,
+      "layer": "PassingOver_1",
+      "line_visible": false,
+      "linestyle": "st__solid",
+      "linewidth": 1,
+      "markers_visible": true,
+      "points_mode": "st__auto",
+      "size": 7,
+      "size_att": "timestamp",
+      "size_mode": "st__Fixed",
+      "size_scaling": 1,
+      "size_vmax": 1474849938.842,
+      "size_vmin": 1473740496.317,
+      "stretch": "st__log",
+      "vector_arrowhead": false,
+      "vector_mode": "st__Cartesian",
+      "vector_origin": "st__middle",
+      "vector_scaling": 0.9770099572992254,
+      "vector_visible": false,
+      "visible": true,
+      "vx_att": "timestamp",
+      "vy_att": "timestamp",
+      "xerr_att": "timestamp",
+      "xerr_visible": false,
+      "yerr_att": "timestamp",
+      "yerr_visible": false,
+      "zorder": 4
+    }
+  },
+  "ScatterLayerState_7": {
+    "_type": "glue_vispy_viewers.scatter.layer_state.ScatterLayerState",
+    "values": {
+      "alpha": 0.8,
+      "cmap": "LinearSegmentedColormap",
+      "cmap_attribute": "timestamp",
+      "cmap_limits_cache": "dict_4",
+      "cmap_vmax": 1474849938.842,
+      "cmap_vmin": 1473740496.317,
+      "color": "st__#595959",
+      "color_mode": "st__Fixed",
+      "layer": "airplane_flight_data",
+      "size": 3,
+      "size_attribute": "timestamp",
+      "size_limits_cache": "dict_5",
+      "size_mode": "st__Fixed",
+      "size_scaling": 0.23988329190194904,
+      "size_vmax": 1474849938.842,
+      "size_vmin": 1473740496.317,
+      "vector_arrowhead": null,
+      "vector_origin": "st__middle",
+      "vector_scaling": 0.9770099572992254,
+      "vector_visible": false,
+      "visible": true,
+      "vx_attribute": "timestamp",
+      "vy_attribute": "timestamp",
+      "vz_attribute": "timestamp",
+      "xerr_attribute": "timestamp",
+      "xerr_visible": false,
+      "yerr_attribute": "timestamp",
+      "yerr_visible": false,
+      "zerr_attribute": "timestamp",
+      "zerr_visible": false,
+      "zorder": 1
+    }
+  },
+  "ScatterLayerState_8": {
+    "_type": "glue_vispy_viewers.scatter.layer_state.ScatterLayerState",
+    "values": {
+      "alpha": 0.93,
+      "cmap": "LinearSegmentedColormap",
+      "cmap_attribute": "timestamp",
+      "cmap_limits_cache": "dict_4",
+      "cmap_vmax": 1474849938.842,
+      "cmap_vmin": 1473740496.317,
+      "color": "st__#e31a1c",
+      "color_mode": "st__Fixed",
+      "layer": "Ascending_1",
+      "size": 7,
+      "size_attribute": "timestamp",
+      "size_limits_cache": "dict_5",
+      "size_mode": "st__Fixed",
+      "size_scaling": 0.3630780547701014,
+      "size_vmax": 1474849938.842,
+      "size_vmin": 1473740496.317,
+      "vector_arrowhead": null,
+      "vector_origin": "st__middle",
+      "vector_scaling": 0.9770099572992254,
+      "vector_visible": false,
+      "visible": true,
+      "vx_attribute": "timestamp",
+      "vy_attribute": "timestamp",
+      "vz_attribute": "timestamp",
+      "xerr_attribute": "timestamp",
+      "xerr_visible": false,
+      "yerr_attribute": "timestamp",
+      "yerr_visible": false,
+      "zerr_attribute": "timestamp",
+      "zerr_visible": false,
+      "zorder": 2
+    }
+  },
+  "ScatterLayerState_9": {
+    "_type": "glue_vispy_viewers.scatter.layer_state.ScatterLayerState",
+    "values": {
+      "alpha": 0.99,
+      "cmap": "LinearSegmentedColormap",
+      "cmap_attribute": "timestamp",
+      "cmap_limits_cache": "dict_4",
+      "cmap_vmax": 1474849938.842,
+      "cmap_vmin": 1473740496.317,
+      "color": "st__#33a02c",
+      "color_mode": "st__Fixed",
+      "layer": "Descending_1",
+      "size": 7,
+      "size_attribute": "timestamp",
+      "size_limits_cache": "dict_5",
+      "size_mode": "st__Fixed",
+      "size_scaling": 0.14454397707459277,
+      "size_vmax": 1474849938.842,
+      "size_vmin": 1473740496.317,
+      "vector_arrowhead": null,
+      "vector_origin": "st__middle",
+      "vector_scaling": 0.9770099572992254,
+      "vector_visible": false,
+      "visible": true,
+      "vx_attribute": "timestamp",
+      "vy_attribute": "timestamp",
+      "vz_attribute": "timestamp",
+      "xerr_attribute": "timestamp",
+      "xerr_visible": false,
+      "yerr_attribute": "timestamp",
+      "yerr_visible": false,
+      "zerr_attribute": "timestamp",
+      "zerr_visible": false,
+      "zorder": 3
+    }
+  },
+  "ScatterViewer": {
+    "_protocol": 1,
+    "_type": "glue.viewers.scatter.qt.data_viewer.ScatterViewer",
+    "layers": [
+      {
+        "_type": "glue.viewers.scatter.layer_artist.ScatterLayerArtist",
+        "state": "ScatterLayerState_3"
+      },
+      {
+        "_type": "glue.viewers.scatter.layer_artist.ScatterLayerArtist",
+        "state": "ScatterLayerState_4"
+      },
+      {
+        "_type": "glue.viewers.scatter.layer_artist.ScatterLayerArtist",
+        "state": "ScatterLayerState_5"
+      },
+      {
+        "_type": "glue.viewers.scatter.layer_artist.ScatterLayerArtist",
+        "state": "ScatterLayerState_6"
+      }
+    ],
+    "pos": [
+      880,
+      0
+    ],
+    "session": "Session",
+    "size": [
+      637,
+      529
+    ],
+    "state": {
+      "values": {
+        "aspect": "st__auto",
+        "dpi": 71.30820648960312,
+        "layers": "CallbackList_0",
+        "plot_mode": "st__rectilinear",
+        "show_axes": true,
+        "x_att": "timestamp",
+        "x_axislabel": "st__timestamp",
+        "x_axislabel_size": 10,
+        "x_axislabel_weight": "st__normal",
+        "x_log": false,
+        "x_max": 1474894316.543,
+        "x_min": 1473696118.616,
+        "x_ticklabel_size": 8,
+        "y_att": "vertical_rate",
+        "y_axislabel": "st__vertical_rate",
+        "y_axislabel_size": 10,
+        "y_axislabel_weight": "st__normal",
+        "y_log": false,
+        "y_max": 6607.36,
+        "y_min": -4175.36,
+        "y_ticklabel_size": 8
+      }
+    }
+  },
+  "Session": {
+    "_type": "glue.core.session.Session"
+  },
+  "VispyScatterViewer": {
+    "_protocol": 1,
+    "_type": "glue_vispy_viewers.scatter.scatter_viewer.VispyScatterViewer",
+    "layers": [
+      {
+        "_type": "glue_vispy_viewers.scatter.layer_artist.ScatterLayerArtist",
+        "state": "ScatterLayerState_7"
+      },
+      {
+        "_type": "glue_vispy_viewers.scatter.layer_artist.ScatterLayerArtist",
+        "state": "ScatterLayerState_8"
+      },
+      {
+        "_type": "glue_vispy_viewers.scatter.layer_artist.ScatterLayerArtist",
+        "state": "ScatterLayerState_9"
+      },
+      {
+        "_type": "glue_vispy_viewers.scatter.layer_artist.ScatterLayerArtist",
+        "state": "ScatterLayerState_10"
+      }
+    ],
+    "pos": [
+      0,
+      447
+    ],
+    "session": "Session",
+    "size": [
+      640,
+      480
+    ],
+    "state": {
+      "values": {
+        "clip_data": true,
+        "layers": "CallbackList_1",
+        "limits_cache": "dict",
+        "line_width": 1.0,
+        "native_aspect": false,
+        "perspective_view": false,
+        "visible_axes": true,
+        "x_att": "longitude",
+        "x_max": -69.90014,
+        "x_min": -72.54662,
+        "x_stretch": 1.0,
+        "y_att": "latitude",
+        "y_max": 43.0827,
+        "y_min": 41.58719,
+        "y_stretch": 1.0,
+        "z_att": "altitude",
+        "z_max": 14.3256,
+        "z_min": -0.3048,
+        "z_stretch": 1.0
+      }
+    }
+  },
+  "WCS": {
+    "_type": "astropy.wcs.wcs.WCS",
+    "header": "WCSAXES =                    2 / Number of coordinate axes                      CRPIX1  =                  1.0 / Pixel coordinate of reference point            CRPIX2  =                  1.0 / Pixel coordinate of reference point            CDELT1  =  0.00037060058388692 / Coordinate increment at reference point        CDELT2  =   0.0002776725943437 / Coordinate increment at reference point        CTYPE1  = 'Lon'                / Coordinate type code                           CTYPE2  = 'Lat'                / Coordinate type code                           CRVAL1  =     -71.524004312786 / Coordinate value at reference point            CRVAL2  =      41.982496779699 / Coordinate value at reference point            LATPOLE =                 90.0 / [deg] Native latitude of celestial pole        MJDREF  =                  0.0 / [d] MJD of fiducial time                       END                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             "
+  },
+  "__main__": {
+    "_type": "glue.app.qt.application.GlueApplication",
+    "data": "DataCollection",
+    "plugins": [
+      "glue.viewers.profile.qt",
+      "glue.plugins.export_d3po",
+      "glue.viewers.scatter.qt",
+      "glue.viewers.table.qt",
+      "glue_vispy_viewers.volume",
+      "glue.io.qt.directory_importer",
+      "glue.plugins.dendro_viewer.qt",
+      "glue.plugins.wcs_autolinking",
+      "glue.viewers.image.qt",
+      "glue.viewers.histogram.qt",
+      "glue.io.formats.fits",
+      "glue.plugins.tools.pv_slicer.qt",
+      "glue_vispy_viewers.scatter",
+      "glue.plugins.coordinate_helpers",
+      "glue.plugins.tools",
+      "glue.core.data_exporters"
+    ],
+    "session": "Session",
+    "tab_names": [
+      "Tab 1"
+    ],
+    "viewers": [
+      [
+        "ImageViewer",
+        "ScatterViewer",
+        "VispyScatterViewer"
+      ]
+    ]
+  },
+  "air_speed": {
+    "_type": "glue.core.component_id.ComponentID",
+    "label": "air_speed"
+  },
+  "airplane_flight_data": {
+    "_key_joins": [],
+    "_protocol": 5,
+    "_type": "glue.core.data.Data",
+    "components": [
+      [
+        "Pixel Axis 0 [x]",
+        "CoordinateComponent"
+      ],
+      [
+        "timestamp",
+        "Component"
+      ],
+      [
+        "longitude",
+        "Component_0"
+      ],
+      [
+        "latitude",
+        "Component_1"
+      ],
+      [
+        "altitude",
+        "Component_2"
+      ],
+      [
+        "ground_speed",
+        "Component_3"
+      ],
+      [
+        "air_speed",
+        "Component_4"
+      ],
+      [
+        "heading",
+        "Component_5"
+      ],
+      [
+        "vertical_rate",
+        "Component_6"
+      ],
+      [
+        "date",
+        "Component_7"
+      ],
+      [
+        "time",
+        "Component_8"
+      ]
+    ],
+    "label": "airplane_flight_data",
+    "meta": {
+      "_type": "collections.OrderedDict",
+      "contents": {}
+    },
+    "primary_owner": [
+      "Pixel Axis 0 [x]",
+      "timestamp",
+      "longitude",
+      "latitude",
+      "altitude",
+      "ground_speed",
+      "air_speed",
+      "heading",
+      "vertical_rate",
+      "date",
+      "time"
+    ],
+    "style": {
+      "_type": "glue.core.visual.VisualAttributes",
+      "alpha": 0.8,
+      "color": "#595959",
+      "linestyle": "solid",
+      "linewidth": 1,
+      "marker": "o",
+      "markersize": 3,
+      "preferred_cmap": null
+    },
+    "subsets": [
+      "Ascending_1",
+      "Descending_1",
+      "PassingOver_1"
+    ],
+    "uuid": "d7768a37-a2b4-4521-a958-85b43cfa9e7d"
+  },
+  "altitude": {
+    "_type": "glue.core.component_id.ComponentID",
+    "label": "altitude"
+  },
+  "date": {
+    "_type": "glue.core.component_id.ComponentID",
+    "label": "date"
+  },
+  "dict": {
+    "_type": "builtins.dict",
+    "contents": {
+      "altitude": "dict_3",
+      "latitude": "dict_2",
+      "longitude": "dict_1",
+      "timestamp": "dict_0"
+    }
+  },
+  "dict_0": {
+    "_type": "builtins.dict",
+    "contents": {
+      "st__lower": 1473740493.294,
+      "st__upper": 1474849984.982
+    }
+  },
+  "dict_1": {
+    "_type": "builtins.dict",
+    "contents": {
+      "st__lower": -72.54662,
+      "st__upper": -69.90014
+    }
+  },
+  "dict_2": {
+    "_type": "builtins.dict",
+    "contents": {
+      "st__lower": 41.58719,
+      "st__upper": 43.0827
+    }
+  },
+  "dict_3": {
+    "_type": "builtins.dict",
+    "contents": {
+      "st__lower": -0.3048,
+      "st__upper": 14.3256
+    }
+  },
+  "dict_4": {
+    "_type": "builtins.dict",
+    "contents": {
+      "timestamp": "dict_6"
+    }
+  },
+  "dict_5": {
+    "_type": "builtins.dict",
+    "contents": {
+      "timestamp": "dict_7"
+    }
+  },
+  "dict_6": {
+    "_type": "builtins.dict",
+    "contents": {
+      "st__lower": 1473740496.317,
+      "st__upper": 1474849938.842
+    }
+  },
+  "dict_7": {
+    "_type": "builtins.dict",
+    "contents": {
+      "st__lower": 1473740496.317,
+      "st__upper": 1474849938.842
+    }
+  },
+  "ground_speed": {
+    "_type": "glue.core.component_id.ComponentID",
+    "label": "ground_speed"
+  },
+  "heading": {
+    "_type": "glue.core.component_id.ComponentID",
+    "label": "heading"
+  },
+  "latitude": {
+    "_type": "glue.core.component_id.ComponentID",
+    "label": "latitude"
+  },
+  "longitude": {
+    "_type": "glue.core.component_id.ComponentID",
+    "label": "longitude"
+  },
+  "time": {
+    "_type": "glue.core.component_id.ComponentID",
+    "label": "time"
+  },
+  "timestamp": {
+    "_type": "glue.core.component_id.ComponentID",
+    "label": "timestamp"
+  },
+  "vertical_rate": {
+    "_type": "glue.core.component_id.ComponentID",
+    "label": "vertical_rate"
+  }
+}
